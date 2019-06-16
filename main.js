@@ -1,3 +1,4 @@
+alert('Dzień dobry!');
 console.log('Dzień dobry!');
 const name = 'Renata';
 const age = 37;
