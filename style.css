@@ -1,24 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
-    background: #910479;
+    background: #C8D5B9;
 }
 
 .mainHeader {
-    color: tomato;
+    color: #2D3142;
+    font-size: 40px;
 }
 
 .sectionHeader {
-    color: rgb(57, 86, 252);
-    font-size: 60px;
+    color: #586F7C;
 }
 
 .diaryHeader {
-    color: rgb(21, 248, 59);
+    color: #586F7C;
+}
+
+.postHeader {
+    color: rgb(72, 108, 129);
 }
 
 p {
-    color: rgb(21, 248, 59);
+    color: #333333;
 }
 
-#dziennik {
-    background: chocolate !important;
+.link {
+    color: #C33149;
 }
