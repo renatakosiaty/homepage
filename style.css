@@ -1,18 +1,25 @@
+/* light grey colour #C8D5B9 */
+
 html {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background: #C8D5B9;
 }
 
+header {
+    background-image: linear-gradient(rgba(200, 213, 185, 0.514), rgba(200, 213, 185, 0.514)), url(resources/css/img/headerimage.jpg);
+    height: 100vh;
+    background-position: 25%;
+    background-size: cover;
+}
+
 .mainHeader {
     color: #2D3142;
     font-size: 40px;
-}
-
-.sectionHeader {
-    color: #586F7C;
 }
 
 .diaryHeader {
