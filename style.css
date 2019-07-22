@@ -1,24 +1,30 @@
-/* light grey colour #C8D5B9 */
+/* linear-gradient(rgba(200, 213, 185, 0.514) */
 
 html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Muli', 'Arial', sans-serif;
+    color: #2D3142;
 }
 
 body {
-    background: #C8D5B9;
+    background: rgb(210, 220, 243);
 }
 
-header {
+.mainHeaderbox {
     background-image: linear-gradient(rgba(200, 213, 185, 0.514), rgba(200, 213, 185, 0.514)), url(resources/css/img/headerimage.jpg);
     height: 100vh;
+    width: 45vw;
     background-position: 25%;
     background-size: cover;
 }
 
 .mainHeader {
-    color: #2D3142;
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
     font-size: 40px;
 }
 
@@ -36,4 +42,9 @@ p {
 
 .link {
     color: #C33149;
+    text-transform: uppercase;
+}
+
+.longCopyHeader, .longCopy {
+    text-align: center;
 }
